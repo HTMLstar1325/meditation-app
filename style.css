@@ -64,6 +64,7 @@
   align-items: center;
   flex-direction: column;
   flex: 1;
+  cursor:pointer;
 }
 
 .player-container svg {
@@ -73,9 +74,11 @@
   left: 50%;
   transform: translate(-50%, -50%) rotate(-90deg);
   pointer-events: none;
+  curosr:pointer;
 }
 .player-container svg circle {
   transition: all 0.2s ease-in-out;
+  cursor:pointer;
 }
 .time-display {
   color: white;
