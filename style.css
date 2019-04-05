@@ -91,3 +91,6 @@ video {
   width: 100%;
   z-index: -10;
 }
+button:focus {
+  outline:0;
+}
